@@ -1,0 +1,28 @@
+.homepage-container {
+    min-height: 100vh;
+    padding: 30px 10px;
+}
+
+ .category-container p {
+    color: #3A4895;
+    font-size: 20px;
+    margin-right: 90px;
+    padding: 0 5px 50px;
+    cursor: pointer; 
+}
+
+.category-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 52px;
+
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+

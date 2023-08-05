@@ -1,0 +1,42 @@
+.details-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding-top: 60px;
+    font-size: 18px;
+}
+
+  .container-info {
+    margin-top: 20px;
+    width: 50%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .details-container img {
+    object-fit: contain;
+    width: 220px;
+    height: 300px;
+  }
+
+  .add-button, .remove-button{
+    border: none; 
+    background-color: rgb(212, 212, 81);
+    width: 156px;
+    height: 41px;
+  }
+
+  .price-elements{
+    display: flex;
+}
+
+
+
+
+

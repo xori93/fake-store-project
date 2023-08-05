@@ -1,0 +1,34 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A4895;
+    color: white;
+    padding: 10px;
+    height: 45px;
+    position: relative;
+}
+
+.contact-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* .heart-icon {
+    position: absolute;
+    left: 4.5em;
+    bottom: 1.5em;
+    /* font-size: 1px; */
+/* } */
+
+.footer-item{
+    display: flex;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+
+.item{
+    margin-right: 6px;
+}

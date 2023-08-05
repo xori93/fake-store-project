@@ -1,0 +1,33 @@
+.cart-products{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    margin: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart-items{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 800px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.trash-can{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-elements{
+    display: flex;
+}
